@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CAMPUS ONE — BRCM College of Engineering &amp; Technology</title>
+<meta name="description" content="CAMPUS ONE: timetable, bus details, canteen menu, campus map and student services for BRCM College of Engineering & Technology, Bahal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/home">CAMPUS ONE <small>BRCM College of Engg. &amp; Technology, Bahal</small></a>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav id="nav-links" class="nav-links">
+      <a href="#/home" data-route="home">Home</a>
+      <a href="#/timetable" data-route="timetable">Timetable</a>
+      <a href="#/bus" data-route="bus">Bus</a>
+      <a href="#/canteen" data-route="canteen">Canteen</a>
+      <a href="#/map" data-route="map">Map</a>
+      <a href="#/syllabus" data-route="syllabus">Syllabus</a>
+      <a href="#/notes" data-route="notes">Notes</a>
+      <a href="#/library" data-route="library">Library</a>
+      <a href="#/ai" data-route="ai">AI Assistant</a>
+      <a href="#/login" data-route="login">Login</a>
+    </nav>
+    <div class="header-clock" aria-live="polite" aria-label="Current date and time">
+      <span id="header-date"></span>
+      <strong id="header-time"></strong>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>CAMPUS ONE</h4>
+        <p style="max-width:32ch">For the Students. By the Students. To the Students.</p>
+      </div>
+      <div>
+        <h4>Academic</h4>
+        <ul>
+          <li><a href="#/timetable">Timetable</a></li>
+          <li><a href="#/syllabus">Syllabus</a></li>
+          <li><a href="#/notes">Notes</a></li>
+          <li><a href="#/library">Library</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Campus</h4>
+        <ul>
+          <li><a href="#/map">Map</a></li>
+          <li><a href="#/canteen">Canteen</a></li>
+          <li><a href="#/bus">Bus Details</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Community</h4>
+        <ul>
+          <li><a href="#/credits">Creator Credits</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      BRCM Education Society, Bahal (Bhiwani) · CAMPUS ONE — student-focused campus companion.
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/syllabus-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
